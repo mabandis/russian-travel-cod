@@ -1,0 +1,23 @@
+.place__paragraph-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-self: start;
+    row-gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph-container{
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph-container{
+        width: 288px;
+        margin: 0 auto;
+    }
+}

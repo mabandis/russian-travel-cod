@@ -1,0 +1,17 @@
+.place__website {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 12px;
+    box-sizing: content-box;
+    align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        width: 288px;
+        margin: 0 auto;
+    }
+}
